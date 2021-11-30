@@ -1,0 +1,352 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: segoe UI, tahoma;
+}
+
+.header-area {
+	width: 100%;
+	background: url(images/bg-top.png);
+	height: 820px;
+	padding-bottom:20px;
+}
+.container {
+	width: 50%;
+	text-align:center;
+	margin: auto;
+}
+.header-area img {
+	margin-top: 80px;
+	margin-bottom: 100px;
+	
+}
+.header-text h1 {
+	color: #f1c40f;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 125px;
+	
+}
+
+.header-text p {
+	color: #1F3338;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.arrow img {
+	cursor: pointer;
+}
+
+/* main-area */
+
+.main-area {
+	margin-top: 50px;
+	
+}
+
+.content-one {
+	width: 65%;
+	margin: auto;
+}
+.content-one p {
+	color: #4F4F4F;
+	font-size: 30px;
+	font-weight: 400;
+	text-align:center;
+}
+.content-one h1 {
+	color: #474B4E;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.content-one h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 10px 0;
+	color: #393D40;
+}
+
+.template {
+	float: left;
+	width: 30%;
+	color: #464b4f;
+	
+}
+.template p {
+	text-align: left;
+	color: #888a8b;
+	font-size: 18px;
+}
+
+.brand {
+	overflow: hidden;
+	float: left;
+	width: 30%;
+	padding: 0 5%;
+}
+.brand p {
+	text-align: justify;
+	color: #888a8b;
+	font-size: 18px;
+	
+}
+
+.breams {
+	overflow: hidden;
+	width: 30%;
+
+}
+
+.breams p {
+	text-align: left;
+	color: #888a8b;
+	font-size: 18px;
+}
+
+.content-two {
+	width: 100%;
+	background: #2C3E50;
+	min-height: 850px;
+	padding-bottom:20px;
+	
+	
+}
+
+.content-two h1 {
+	color: #FFFFFF;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 40px;
+	padding-top: 100px;
+}
+
+/* menu */
+
+.menu ul {
+	text-align: center;
+	margin-bottom: 55px;
+	
+	
+}
+.menu ul li {
+	display: inline-block;
+	padding-right: 44px;
+
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.menu ul li .current {
+	border-bottom: 2px solid #7b77c9;
+}
+
+.menu ul li a:hover {
+	border-bottom: 2px solid #7b77c9;
+}
+
+/* -------images & box---------- */
+.box {
+	width: 77%;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+.img-1 {
+	float: left;
+	padding: 20px 10px;
+	
+}
+
+.img-2 {
+	overflow: hidden;
+	float: left;
+	padding: 20px 10px;
+}
+
+.img-3 {
+	overflow: hidden;
+	float: left;
+	padding: 20px 10px;
+}
+
+.img-4 {
+	overflow: hidden;
+	float: left;
+	padding: 20px 10px;
+}
+
+.img-5 {
+	overflow: hidden;
+	float: left;
+	padding: 20px 10px;
+}
+
+.img-6 {
+	overflow: hidden;
+	float: left;
+	padding: 20px 10px;
+}
+
+.box a {
+	color: #8C8F9E;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.box p {
+	text-align: center;
+	Color: #FFFEFF;
+	font-size: 21px;
+	margin: 10px;
+}
+
+/* Button */
+
+.button {
+	text-align:center;
+	margin: 50px 0;
+}
+.button a {
+	background: #7B77C9;
+	text-decoration: none;
+	border: 1px solid #232244;
+	padding:13px 40px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+
+
+.content-three {
+	width: 100%;
+	margin: auto;
+}
+
+.content-three h1 {
+	color: #474B4E;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.content-three p {
+	color: #7A7A7A;
+	font-size: 30px;
+	font-weight: 400;
+	text-align:center;
+	width: 65%;
+	margin: auto;
+}
+
+
+.content-four {
+	width: 100%;
+	background: url(images/bg-top-2.png);
+	height: 800px;
+	padding-bottom:20px;
+}
+
+.container-2 {
+	width: 75%;
+	text-align:center;
+	margin: auto;
+	
+}
+
+.content-four img {
+	padding-top: 300px;
+}
+
+.content-four p {
+	padding: 40px 0;
+	color: #FFFFFF;
+	font-size: 18px;
+	
+}
+
+.content-four input[type="text"] {
+	width: 35%;
+	height: auto;
+	padding: 18px 20px;
+	font-size: 18px;
+	margin-right: 10px;
+	border: 1px solid #23232E;
+	border-radius: 8px;
+	color: #c8c8c8;
+}
+
+.content-four input[type="submit"] {
+	width: 22%;
+	height: auto;
+	padding: 18px 0;
+	font-size: 18px;
+	background: #7C77C9;
+	border: 1px solid #232244;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+
+
+/* Footer */
+
+.footer-area {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	margin-top: 100px;
+}
+.social-link img {
+	padding: 10px 10px;
+	
+}
+
+.social-link img:hover {
+	border-bottom: 1px solid #c8c8c8;
+	border-radius: 50%;
+}
+
+.copyright {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.copyright p {
+	color: #7c7c7c;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
